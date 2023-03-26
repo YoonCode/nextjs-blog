@@ -1,3 +1,12 @@
+###Stacks to use
+[next.js](https://nextjs.org/docs)
+[tailwindcss](https://tailwindcss.com/docs/installation)
+[react-markdown](https://github.com/remarkjs/react-markdown#what-is-this)
+[remark-gfm](https://github.com/remarkjs/remark-gfm)
+[tailwindcss/typography](https://tailwindcss.com/docs/typography-plugin)
+[react-icons](https://react-icons.github.io/react-icons/)
+[react-syntax-hightlighter](https://github.com/react-syntax-highlighter/react-syntax-highlighter)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
