@@ -12,9 +12,9 @@ const LINKS = [
 export default function ContactPage() {
   return (
     <section className="flex flex-col items-center">
-      <h2>Contact Me</h2>
+      <h2 className="text-3xl font-bold my-2">Contact Me</h2>
       <p>yooncode.dev@gmail.com</p>
-      <ul>
+      <ul className="flex gap-4 my-2">
         {LINKS.map((link, index) => (
           <a
             key={index}
