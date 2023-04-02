@@ -17,14 +17,15 @@ export async function POST(req: Request) {
   }
 
   return sendEmail(body) //
-    .then(() => {
-      new Response(JSON.stringify({ message: "메일을 성공적으로 보냈음" }), {
-        status: 200,
-      });
-    })
+    .then(
+      () =>
+        new Response(JSON.stringify({ message: "메일을 성공적으로 보냈음" }), {
+          status: 200,
+        })
+    )
     .catch(error => {
       console.error(error);
-      new Response(JSON.stringify({ message: "메일 전송에 실패함!" }), {
+      return new Response(JSON.stringify({ message: "메일 전송에 실패함!" }), {
         status: 500,
       });
     });
