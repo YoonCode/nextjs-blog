@@ -1,5 +1,11 @@
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import ContactForm from "../components/ContactForm";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact Me",
+  description: "Sangjin에게 메일 보내기",
+};
 
 const LINKS = [
   { icon: <AiFillGithub />, url: "https://github.com/YoonCode" },
